@@ -7,16 +7,26 @@
   "author": "teinen, ebiryu",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "webpack --config=webpack.prod.js",
+    "start": "webpack-dev-server --open --config=webpack.dev.js",
+    "test": "jest --watch"
+  },
   "dependencies": {
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "autoprefixer": "^9.1.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-runtime": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
     "jest": "^23.5.0",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
     "vue-jest": "^2.6.0",
     "vue-loader": "^15.3.0",
     "vue-style-loader": "^4.1.2",
