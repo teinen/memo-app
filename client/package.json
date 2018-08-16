@@ -1,0 +1,29 @@
+{
+  "name": "memo-app",
+  "version": "1.0.0",
+  "description": "Memo app (client side)",
+  "main": "index.js",
+  "repository": "https://github.com/teinen/memo-app",
+  "author": "teinen, ebiryu",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "jest": "^23.5.0",
+    "vue-jest": "^2.6.0",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  }
+}
